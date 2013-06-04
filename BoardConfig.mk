@@ -113,10 +113,10 @@ BOARD_MALLOC_ALIGNMENT := 16
 # [0] Linaro enhancements are required for the next two :
 
 # Turn on Cortex A9 Optimizations for A7
-TARGET_EXTRA_CFLAGS := $(call cc-option,-mtune=cortex-a9) $(call cc-option,-mcpu=cortex-a9)
+#TARGET_EXTRA_CFLAGS := $(call cc-option,-mtune=cortex-a9) $(call cc-option,-mcpu=cortex-a9)
 
 # Use Cortex A9 optimizations for A7
-USE_ALL_OPTIMIZED_STRING_FUNCS := true
+#USE_ALL_OPTIMIZED_STRING_FUNCS := true
 
 # [1] Linaro end
 
